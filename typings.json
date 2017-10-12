@@ -1,0 +1,39 @@
+{
+  "name": "coffee",
+  "globalDependencies": {
+    "Q": "github:DefinitelyTyped/DefinitelyTyped/q/Q.d.ts#513510a89acc648422c9abb047265116198f99ee",
+    "aphrodite": "registry:dt/aphrodite#0.5.0+20160724060110",
+    "chalk": "github:DefinitelyTyped/DefinitelyTyped/chalk/chalk.d.ts#ec9eb4b28c74665a602c22db3457f0a76fa0fa23",
+    "classnames": "github:DefinitelyTyped/DefinitelyTyped/classnames/classnames.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738",
+    "gulp": "github:DefinitelyTyped/DefinitelyTyped/gulp/gulp.d.ts#513510a89acc648422c9abb047265116198f99ee",
+    "gulp-tslint": "github:DefinitelyTyped/DefinitelyTyped/gulp-tslint/gulp-tslint.d.ts#ec9eb4b28c74665a602c22db3457f0a76fa0fa23",
+    "gulp-util": "github:DefinitelyTyped/DefinitelyTyped/gulp-util/gulp-util.d.ts#ec9eb4b28c74665a602c22db3457f0a76fa0fa23",
+    "history": "github:DefinitelyTyped/DefinitelyTyped/react-router/history.d.ts#e05e1f6f83c6ac84e9d7ff8284e8089d53a788a6",
+    "jest": "registry:dt/jest#15.1.1+20160919141445",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#513510a89acc648422c9abb047265116198f99ee",
+    "jqueryui": "registry:dt/jqueryui#1.11.0+20160727153854",
+    "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#7ce2630b07ef481d6c5f262dcafe9c9e2feec446",
+    "moment-node": "github:DefinitelyTyped/DefinitelyTyped/moment/moment-node.d.ts#7ce2630b07ef481d6c5f262dcafe9c9e2feec446",
+    "node": "registry:dt/node#6.0.0+20161121110008",
+    "orchestrator": "github:DefinitelyTyped/DefinitelyTyped/orchestrator/orchestrator.d.ts#513510a89acc648422c9abb047265116198f99ee",
+    "react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#a15f08332763d2e41d9787cec4e8324c9e5870dc",
+    "react-addons-test-utils": "github:DefinitelyTyped/DefinitelyTyped/react/react-addons-test-utils.d.ts#a44529fcb1e1cdc0355e71c42a6048de99b57c34",
+    "react-bootstrap": "registry:dt/react-bootstrap#0.0.0+20160806072414",
+    "react-datepicker": "registry:dt/react-datepicker#0.28.1+20160724064853",
+    "react-router": "github:DefinitelyTyped/DefinitelyTyped/react-router/react-router.d.ts#e05e1f6f83c6ac84e9d7ff8284e8089d53a788a6",
+    "react-dom": "github:DefinitelyTyped/DefinitelyTyped/react/react-dom.d.ts#a44529fcb1e1cdc0355e71c42a6048de99b57c34",    
+    "react-select": "registry:dt/react-select#1.0.0+20160907215141",
+    "through": "github:DefinitelyTyped/DefinitelyTyped/through/through.d.ts#ec9eb4b28c74665a602c22db3457f0a76fa0fa23",
+    "through2": "github:DefinitelyTyped/DefinitelyTyped/through2/through2.d.ts#ec9eb4b28c74665a602c22db3457f0a76fa0fa23",
+    "toastr": "registry:dt/toastr#2.1.3+20161123234806",
+    "validator": "github:DefinitelyTyped/DefinitelyTyped/validator/validator.d.ts#6400da610d0189eaf286be19982eb1389b308221",
+    "vinyl": "github:DefinitelyTyped/DefinitelyTyped/vinyl/vinyl.d.ts#ec9eb4b28c74665a602c22db3457f0a76fa0fa23",
+    "whatwg-fetch": "registry:dt/whatwg-fetch#0.0.0+20161004182750",
+    "whatwg-streams": "registry:dt/whatwg-streams#0.0.0+20160829180742"
+  },
+  "dependencies": {
+    "enzyme": "registry:npm/enzyme#2.2.0+20160322031343",
+    "lodash": "registry:npm/lodash#4.0.0+20161015015725",
+    "sinon": "registry:npm/sinon#1.16.0+20160723033700"
+  }
+}

@@ -1,0 +1,160 @@
+﻿@import "colors";
+@import "fonts";
+
+
+.icoActiveGreen {
+    background-image: url("../images/spinner_green.gif");
+}
+
+.btn-sf,
+button {
+    display: inline-block;
+    cursor: pointer;
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: @font-type;
+    color: @primary-button-color;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    padding: 3px 12px 3px 10px;
+    background-color: @primary-button-background-color;
+    border: none;
+
+    .ico {
+        display: none;
+    }
+
+    &:hover {
+        background-color: @primary-button-hover-background-color;
+        color: @primary-button-color;
+    }
+
+    &:active {
+        background-color: @primary-button-active-background-color;
+    }
+
+    &:focus {
+        outline: none;
+        background-color: @primary-button-background-color;
+        color: @primary-button-color;
+
+        &:hover {
+            background-color: @primary-button-hover-background-color;
+            color: @primary-button-color;
+        }
+    }
+
+    &.button-pad-right {
+        margin-right: 10px;
+    }
+
+    &.active {
+        position: relative;
+        .icoActiveGreen();
+        background-position: center center;
+        background-repeat: no-repeat;
+        -ms-opacity: 1;
+        opacity: 1;
+        color: @primary-button-background-color;
+        color: rgba(0,0,0,0);
+
+        &.grey {
+            color: @secondary-button-active-color;
+            color: rgba(0,0,0,0);
+            background-image: url("../images/spinner_darkgrey.gif");
+        }
+
+        &.light-grey {
+            color: @light-grey-button-color;
+            color: rgba(0,0,0,0);
+            background-image: url("../images/spinner_lightgrey.gif");
+        }
+    }
+
+    &[disabled], &.disabled {
+        opacity: .3;
+        filter: alpha(opacity=40);
+        cursor: default;
+    }
+
+    &.grey {
+        background-color: @secondary-button-background-color;
+        color: #666;
+
+        &:hover {
+            background-color: @secondary-button-hover-background-color;
+        }
+
+        &:active {
+            background-color: @secondary-button-active-background-color;
+        }
+
+        &:disabled, &.disabled {
+            background-color: @secondary-button-disabled-background-color;
+        }
+    }
+
+    &.light-grey,
+    + button {
+        background-color: @light-grey-button-color;
+        color: @seconday-button-color;
+
+        &:hover {
+            background-color: @secondary-button-hover-background-color;
+        }
+
+        &:active {
+            background-color: @secondary-button-background-color;
+        }
+    }
+
+    &.txt {
+        width: auto;
+        height: auto;
+        line-height: normal;
+        float: none;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        color: @txtButtonColor;
+        text-decoration: underline;
+    }
+
+    &.action-button {
+        margin-top: 20px;
+        height: 40px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: @button-text-size-normal;
+    }
+
+
+    &.btn-citrix-primary {
+        background-color: @primary-button-background-color;
+        color: @primary-button-color;
+        line-height: 10px;
+        &:active, &:hover, &:focus {
+            background-color:@primary-button-hover-background-color;
+            color: @primary-button-color;
+        }
+    }
+
+    &.btn-citrix-secondary {
+        background-color: #d8d8d8;
+        color: #666;
+        font-weight: 500;
+        &:active, &:hover {
+            background-color: @secondary-button-active-background-color;
+            color: @secondary-button-active-color;
+        }
+    }
+}
+
+.btn-group {
+    margin: 0 5px 0 0;
+}

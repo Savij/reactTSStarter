@@ -1,0 +1,16 @@
+﻿{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "noEmitHelpers": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "tasks",
+    "packages"
+  ]
+}
